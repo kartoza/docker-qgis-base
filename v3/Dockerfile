@@ -76,5 +76,7 @@ RUN apt-get -y install bison cmake doxygen flex git graphviz grass-dev libexpat1
 RUN chmod -R a+w /usr/lib/x86_64-linux-gnu/qt4/plugins/designer/
 RUN chmod -R a+w /usr/lib/python2.7/dist-packages/PyQt4/uic/widget-plugins/
 
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # There is no CMD etc specified - normally you would use
 # this image as a base image for the QGIS desktop image
