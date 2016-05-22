@@ -14,7 +14,7 @@ during the build of QGIS so I wanted to separate the concerns from
 * QGIS Server installation
 
 For QGIS Versions 2.x use the v2 recipe folder.
-For QGIS Versions 3.x use the v3 recipe folder.
+For QGIS Versions 3.x use the v3 recipe folder (coming soon).
 
 
 
