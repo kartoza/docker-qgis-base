@@ -2,7 +2,7 @@
 
 
 
-A base repo upon which docker-egis-desktop and docker-egis-server are built.
+A base repo upon which docker-qgis-desktop and docker-qgis-server are built.
 
 
 You might be wondering why these dependencies are not just part of the 
